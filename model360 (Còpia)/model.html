@@ -44,7 +44,17 @@
 
         <!-- Entorn 360 inicial (menu d'idiomes) -->
         <a-sky id="sky" src="#fondo_blancoYnegro"></a-sky>
-        
+        <!-- Texto del menú de idiomas -->
+        <a-text id="titolMenu"
+                value="Bufalvent"
+                position="0 0.8 -2"
+                align="center"
+                color="white"
+                width="4"
+                visible="true">
+        </a-text>
+
+
         <!-- Banderes -->
         <a-plane id="es" data-fondo="Intro" position="-1.5 -0.5 -2" src="#bes" scale="1 1 1" botocastella></a-plane>
         <a-plane id="cat" position="0 -0.5 -2" src="#bcat" scale="1 1 1" botocatala></a-plane>
@@ -54,10 +64,10 @@
             <a-plane id="plano" position="0 -1 -2" src="#dibuplano" scale="2 1 2" visible="false"></a-plane>
 
             <!-- Esferes interactivas: cada una muestra un fondo diferente -->
-            <a-sphere id="esfera1" position="-0.75 -0.75 -2" radius="0.03" color="black" visible="false"
+            <a-sphere id="esfera1" position="-0.75 -0.80 -2" radius="0.03" color="black" visible="false"
                 animation="property: scale; dur: 1000; to: 1.2 1.2 1.2; dir: alternate; loop: true"
                 data-fondo="fondo1" mostrar-fondo></a-sphere>
-            <a-sphere id="esfera2" position="-0.85 -0.85 -2" radius="0.03" color="black" visible="false"
+            <a-sphere id="esfera2" position="-0.68 -0.86 -2" radius="0.03" color="black" visible="false"
                 animation="property: scale; dur: 1000; to: 1.2 1.2 1.2; dir: alternate; loop: true"
                 data-fondo="fondo2" mostrar-fondo></a-sphere>
             <a-sphere id="esfera3" position="-0.78 -1 -2" radius="0.03" color="black" visible="false"
